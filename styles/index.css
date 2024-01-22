@@ -1,0 +1,61 @@
+body {
+    font-family: "Lucida Console", monospace;
+    background-image: url(../images/skyline.jpg);
+    background-attachment: fixed;
+    height: 200vh;
+}
+
+header {
+    color: #070C0D;
+    background-color: #56979F;
+    text-align: center;
+    padding: 5px;
+    border-radius: 10px 10px 0 0;
+    }
+
+footer {
+    color: #070C0D;
+    background-color: #56979F;
+    padding: 5px;
+    border-radius: 0px 0px 10px 10px;
+}
+
+main {
+    color: #070C0D;
+    background-color: rgb(86, 151, 159, 0.6);
+    padding: 5px;
+}
+
+
+h1 {
+    color: #c24e28;
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+
+}
+
+hr {
+    margin: 0%;
+    background-color: #407076;
+}
+
+#menu {
+    list-style-type: none;
+}
+
+#menu li {
+    padding: 5px;
+}
+
+
+.footnote {
+   color: aquamarine;
+   font-size: small;
+}
+
+img {
+    border: 5px #56979F solid;
+    border-bottom: 5px #407076 solid;
+    border-radius: 10px 10px 0px 0px;
+}
