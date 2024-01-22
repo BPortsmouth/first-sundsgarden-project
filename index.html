@@ -5,22 +5,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>First Project</title>
     <link rel="icon" href="/images/favicon.gif">
+    <link rel="stylesheet" href="styles/index.css">
 </head>
 <body>
-    <h1>A <em>simple*</em> website</h1>
-    <p><small>*will become less simple as time goes on</small></p>
-    <p>Front-end Development - Project 1</p>
+    <header id="homepage">
+        <h1>A <em>simple*</em> website</h1>
+        <p class="footnote"><small>*will become less simple as time goes on</small></p>
+        <nav>
+            <ul id="menu">
+                <li><a href="#homepage">Home</a></li>
+                <li><a href="https://sundsgarden.se/">Sundsgården Webpage</a></li>
+                <li><a href="#project details">Project Details</a></li>
+            </ul>
+        </nav>
+    </header>
     <hr>
-    <div>
-        <h2>Pixel Art</h2>
-        <p>Over the years, I've found different ways to use my creativity. One of my favourite creative outlets has been pixel art</p>
-        <p>I wouldn't say I'm good by any means, but there are some things I've created that I'm proud of, like the image below and the icon for this page.</p>
-        <img src="images/Lighthouse.png" width="384px" height="288px"
-            alt="A pixel art image of a lighthouse. The image is in shades of blue to make it look like nighttime" 
-            title="A pixel art image of a lighthouse. The image is in shades of blue to make it look like nighttime">
-    </div>
-    <!--Add additional subjects to this section of the page-->
+    <main>
+        <section>
+            <h2>Pixel Art</h2>
+            <p>Over the years, I've found different ways to use my creativity. One of my favourite creative outlets has been pixel art. I wouldn't say I'm good by any means, 
+                but there are some things I've created that I'm proud of, like the image below and the icon for this page.</p>
+            <img src="images/Lighthouse.png" width="384px" height="288px"
+                alt="A pixel art image of a lighthouse. The image is in shades of blue to make it look like nighttime" 
+                title="A pixel art image of a lighthouse. The image is in shades of blue to make it look like nighttime">
+        </section>
+        <!--Add additional subjects to this section of the page-->
+        <section>
+            <h2>Lorem ipsum</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus odio numquam odit. Ut fugiat dolorem accusantium unde eos hic expedita eaque sapiente 
+                inventore, voluptate impedit error quod quasi a voluptates?</p>
+        </section>
+        <section style="color: #511500;">
+            <h2>Lorem ipsum</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus odio numquam odit. Ut fugiat dolorem accusantium unde eos hic expedita eaque sapiente 
+                inventore, voluptate impedit error quod quasi a voluptates?</p>
+        </section>
+    </main>
     <hr>
-    <p>Fun Fact: This page was made with <strong>really</strong> cold hands because it's -20C outside and my desk is right by the window.</p>
+    <footer>
+        <section id="project details">
+            <h3>Front-end Development - Project 1</h3>
+            <h4>Consisting of assignments:</h4>
+            <ol>
+                <li>Intro to HTML</li>
+                <li>HTML and intro to CSS</li>
+            </ol>
+        </section>
+        <p class="footnote">Fun Fact: This page was made with <strong style="color: aliceblue;">really</strong> cold hands because it's -20C outside and my desk is 
+            right by the window.</p>
+    </footer>
 </body>
 </html>
